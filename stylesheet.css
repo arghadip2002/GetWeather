@@ -1,11 +1,17 @@
 /* ----------------------------------------index page-------------------------------------------------*/
 
 
-.main{
+.main {
     padding: 20px 100px 20px;
 }
 
-.first-section{
+
+.navbar-brand:hover {
+    color: yellow;
+}
+
+
+.first-section {
     color: yellow;
     text-align: center;
     font-size: 50rem;
@@ -17,20 +23,19 @@
 }
 
 
-.first-section-heading{
+.first-section-heading {
     font-size: 5rem;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 900;
 }
 
 
-.first-section-overlay{
+.first-section-overlay {
     background-color: rgba(0, 255, 255, 0.537);
 }
 
 
-
-.heading{
+.heading {
     font-size: 5rem;
     font-weight: 700;
     text-align: center;
@@ -39,56 +44,59 @@
     font-family: monospace;
 }
 
-.image{
+.image {
     width: 100%;
     height: 100%;
     background-position: center;
     background-size: cover;
-    background-image: url(media/why-is-sky-blue.jpg);
+    background-image: url(media/img01.0.jpg);
 }
 
-.img-overlay{
+
+.img-overlay {
     background-color: rgba(100, 98, 90, 0.338);
 }
 
-.card{
+
+.card {
     width: 100%;
     height: 100%;
     background-position: center;
     background-size: cover;
-    background-image: url(media/pexels-disha-sheta-3584430.jpg);
+    background-image: url(media/img01.2.jpg);
     color: aliceblue;
     border: 5px solid rgba(240, 240, 6, 0.712);
     border-radius: 100px;
 }
 
-.doverlay{
+.doverlay {
     background-color: rgba(0, 0, 0, 0.422);
 }
 
-.card-header{
+.card-header {
     background-color: rgba(0, 0, 0, 0.785);
 }
 
-.subheading{
+.subheading {
     font-size: 1.5rem;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.last_table{
+.last_table {
     margin-top: 50px;
     padding: 30px;
     border: 5px solid yellow;
     border-radius: 30px;
 }
 
-th,h5{
+th,
+h5 {
     color: white;
     font-family: 'Nanum Pen Script', cursive;
     font-size: 2rem;
 }
 
-.heading02{
+.heading02 {
     font-size: 3rem;
     font-weight: 500;
     color: aliceblue;
@@ -96,92 +104,109 @@ th,h5{
 
 }
 
-.text-start{
+.text-start {
     font-size: 1.5rem;
     font-family: 'Kalam', cursive;
 }
 
-.navbar{
+.navbar {
     background-color: rgba(0, 0, 0, 0.374);
 }
 
-.form_search{
+.form_search {
     margin: 30px 300px 20px;
 }
 
-.tbl_heading{
+.tbl_heading {
     font-size: 1.7rem;
     font-family: 'Kalam', cursive;
 }
 
 
-.toplink{
+.toplink {
     color: white;
 }
-.toplink:hover{
+
+.nav-link:hover {
     color: yellow;
 }
-.nav-item{
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: yellow;
+}
+
+.nav-item {
     padding-left: 1.5rem;
     font-size: 1.2rem;
 }
-.navbar-brand{
+
+.navbar-brand {
     color: white;
     margin-right: 38rem;
     font-size: 1.5rem;
     font-weight: 900;
 }
 
-.card-title{
+.card-title {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 5rem;
 }
 
-.result{
+.result {
     font-family: 'Nanum Pen Script', cursive;
     font-size: 2rem;
 }
 
-.data{
+.data {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.5rem;
 }
 
-.footer01{
+.footer01 {
     margin: 0;
 }
 
-.footer{
+.footer {
     padding: 50px 20px 20px;
     color: aliceblue;
     font-weight: lighter;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.th-dropdown{
+.th-dropdown {
     color: yellow;
     font-size: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: left;
 }
 
-.th-dropdown-header{
+.th-dropdown-header {
     color: white;
     font-size: 2rem;
     font-family: 'Times New Roman', Times, serif;
     padding-right: 50px;
 }
 
-.dropdown-menu{
-    padding: 10px 20px;
-    background-image: url("media/1085.jpg");
+.dropdown-menu {
+    background-image: url("media/img02.jpg");
+    background-size: cover;
+    border: solid 2px white;
+    border-radius: 15%;
+    padding: 0;
 }
 
-table{
+.dropdown-overlay {
+    background-color: rgba(0, 0, 0, 0.619);
+    padding: 30px 20px;
+    border-radius: 15%;
+
+}
+
+table {
     text-align: center;
 }
 
-td{
+td {
     color: white;
 }
 
@@ -192,17 +217,18 @@ td{
 
 
 
-.image-aboutus{
+.image-aboutus {
     width: 100%;
     height: 100%;
-    background-image: url("media/wall\ paper\ 2.jpg");
+    background-image: url("media/img03.jpg");
+    background-size: cover;
 }
 
-.img-overlay-aboutus{
+.img-overlay-aboutus {
     background-color: rgba(0, 0, 0, 0.61);
 }
 
-.about-p{
+.about-p {
     text-align: center;
     font-size: 1.5rem;
     color: white;
@@ -210,24 +236,24 @@ td{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.about-img{
+.about-img {
     width: 25%;
     border: 5px solid black;
     border-radius: 200px;
-    
+
 }
 
-.img-div{
+.img-div {
     text-align: center;
     margin: 50px 0 0;
 }
 
-.about-name{
+.about-name {
     padding-top: 20px;
     color: rgb(255, 230, 0);
 }
 
-.about-instruction{
+.about-instruction {
     text-align: left;
 }
 
@@ -238,23 +264,28 @@ td{
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 /*----------------------------------------userguidelines----------------------------------------------*/
 
-.user-heading{
+.user-heading {
     text-align: center;
     color: white;
     padding: 50px 100px 30px;
     font-size: 4rem;
 }
 
-.user-p{
+.user-p {
     padding: 0 100px 300px;
     color: white;
     font-size: 1.5rem;
 }
 
-.user-footer{
+.user-footer {
     color: white;
     padding: 20px;
     text-align: center;
+}
+
+.image-user {
+    background-image: url("media/img04.jpg");
+    background-size: cover;
 }
 
 
@@ -264,3 +295,125 @@ td{
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 /*----------------------------Making the website responsive-------------------------------------------*/
 
+@media (max-width:1000px) {
+    .first-section-heading {
+        font-size: 20px;
+    }
+
+    .heading {
+        font-size: 50px;
+    }
+
+    .form_search {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .main {
+        padding: 10px 20px;
+    }
+
+    .navbar-brand {
+        font-size: 1rem;
+    }
+
+    .subheading {
+        font-size: 1rem;
+    }
+
+    .card-title {
+        font-size: 2rem;
+    }
+
+    .data {
+        font-size: 1rem;
+    }
+
+    .result {
+        font-size: 1.5rem;
+    }
+
+    .heading02 {
+        font-size: 2rem;
+    }
+
+    .tbl_heading {
+        font-size: 1rem;
+    }
+
+    .text-start {
+        font-size: 1rem
+    }
+
+    h5 {
+        font-size: 0.8rem;
+    }
+
+    .footer01 {
+        font-size: 0.7rem;
+        padding: 30px 10px 20px;
+    }
+
+
+    .dropdown-overlay {
+        padding-right: 0;
+    }
+    .th-dropdown-header{
+        font-size: 1.5rem;
+    }
+    .th-dropdown{
+        font-size: 0.8rem;
+    }
+    .first-section-overlay{
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+    .card {
+        width: 100%;
+        height: 90%;
+    }
+
+
+    .user-heading{
+        font-size: 1.6rem;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .user-p{
+        font-size: 1rem;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 70px;
+    }
+    .user-footer{
+        font-size: 0.6rem;
+    }
+    .image-user {
+        background-image: url("media/img04.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .image-aboutus {
+        background-image: url("media/img03.2.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+
+
+
+    .about-heading{
+        font-size: 1rem;
+    }
+    .about-instruction{
+        font-size: 0.8rem;
+        padding-top: 30px;
+    }
+    .about-p{
+        padding: 30px 20px;
+    }
+    .about-img{
+        width: 70%;
+    }
+}
