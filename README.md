@@ -5,3 +5,5 @@ You just need to type the name of the country/City in the search bar and you wil
 
 Technologies used : HTML5, CSS and JavaScript.
 API used : Weather-by-API-Ninjas from RapidAPI.
+
+Check Out the Web Application : [GetWeather Application](https://getweather-by-arghadip.netlify.app/)
